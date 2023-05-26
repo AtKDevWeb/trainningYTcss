@@ -1,0 +1,114 @@
+/*définition de la police globale du site*/
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+/*========HEADER========*/
+header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+
+  width: 100px;
+  height: 100px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  border: 2px;
+  border-radius: 30px;
+  border: 2px solid black;
+  width: 500px;
+  height: 30px;
+  margin: 3px solid;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info span {
+  font-weight: bold;
+}
+.user-info img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+/*=========NAV==========*/
+
+li {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 1rem;
+}
+
+li img {
+  margin-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+}
+
+.home-logo {
+  width: 1.7rem;
+}
+
+.short-logo {
+  width: 1.3rem;
+}
+
+.abo-logo {
+  width: 1.3rem;
+}
+
+.bibli-logo {
+  width: 1.3rem;
+}
+
+.histo-logo {
+  width: 1.3rem;
+}
+
+.video-logo {
+  width: 1.3rem;
+}
+
+.horloge-logo {
+  width: 1.3rem;
+}
+
+.like-logo {
+  width: 1.3rem;
+}
+
+.rock-logo {
+  width: 1.3rem;
+}
+
+/*=========== MAIN==========*/
