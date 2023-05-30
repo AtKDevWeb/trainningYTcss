@@ -72,7 +72,6 @@ li {
   align-items: center;
   list-style-type: none;
   margin-top: 1rem;
-  font-size: 1.3em;
 }
 
 li img {
@@ -84,29 +83,51 @@ a {
   color: rgb(36, 36, 36);
 }
 
-.home-logo,
-.rock-logo,
-.short-logo,
-.abo-logo,
-.bibli-logo,
-.histo-logo,
-.video-logo,
-.horloge-logo,
+.home-logo {
+  width: 1.3rem;
+}
+https://github.com/AtKDevWeb/trainningYTcss.git
+.short-logo {
+  width: 1.3rem;
+}
+
+.abo-logo {
+  width: 1.3rem;
+}
+
+.bibli-logo {
+  width: 1.3rem;
+}
+
+.histo-logo {
+  width: 1.3rem;
+}
+
+.video-logo {
+  width: 1.3rem;
+}
+
+.horloge-logo {
+  width: 1.3rem;
+}
+
 .like-logo {
   width: 1.3rem;
 }
 
-.mainDivider {
-  display: flex;
-  align-items: center;
-  height: 1.5rem;
-}
-
-.divider {
-  content: "";
-  height: 1px;
-  width: 15rem;
-  background-color: gray;
+.rock-logo {
+  width: 1.3rem;
 }
 
 /*=========== MAIN==========*/
+
+.video {
+  border: 1px black solid; /*affichage des bodures
+   pour positionnement*/
+  display: inline-block;
+}
+
+.embedVideo {
+  height: ;
+  width: ;
+}
