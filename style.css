@@ -3,12 +3,10 @@
   padding: 0;
 }
 
-/*définition de la police globale du site*/
 body {
   font-family: "Roboto", sans-serif;
 }
 
-/*========HEADER========*/
 header {
   background-color: #fff;
   padding: 20px;
@@ -20,10 +18,24 @@ header {
 
 .logo {
   display: flex;
-
+  
   width: 100px;
   height: 100px;
 }
+.menu-button {
+  display: flex;
+  background-color: #626962;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  background-color: #45a049;
+}
+
 .search-bar {
   display: flex;
   align-items: center;
@@ -32,7 +44,10 @@ header {
 .search-bar input[type="text"] {
   padding: 8px;
   border: 2px;
-  border-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 30px;
   border: 2px solid black;
   width: 500px;
   height: 30px;
@@ -41,10 +56,26 @@ header {
 
 .search-bar button {
   padding: 8px 12px;
-  border-radius: 0 4px 4px 0;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 0px;
   cursor: pointer;
   height: 50px;
   width: 50px;
+  background : white;
+}
+form input[type="submit"] {
+  background-color:#626962;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049;
 }
 
 .user-info {
