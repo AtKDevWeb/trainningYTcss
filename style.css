@@ -18,7 +18,7 @@ header {
 
 .logo {
   display: flex;
-  
+
   width: 100px;
   height: 100px;
 }
@@ -63,14 +63,15 @@ header {
   cursor: pointer;
   height: 50px;
   width: 50px;
-  background : white;
+  background: white;
 }
 form input[type="submit"] {
-  background-color:#626962;
+  background-color: #626962;
   color: white;
   padding: 10px 20px;
   font-size: 16px;
   border: none;
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -154,4 +155,12 @@ a {
 main {
   display: flex;
   flex-wrap: wrap;
+}
+
+/* ============ FOOTER ===========*/
+
+footer {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
 }
