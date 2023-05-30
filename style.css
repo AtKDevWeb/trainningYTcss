@@ -98,7 +98,6 @@ li {
   align-items: center;
   list-style-type: none;
   margin-top: 1rem;
-  font-size: 1.3em;
 }
 
 li img {
@@ -134,5 +133,20 @@ a {
   width: 15rem;
   background-color: gray;
 }
-
 /*=========== MAIN==========*/
+
+.video {
+  border: 1px black solid; /*affichage des bodures
+   pour positionnement*/
+  display: inline-block;
+}
+
+/* .embedVideo {
+  height: ;
+  width: ;
+} */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
