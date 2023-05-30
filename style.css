@@ -119,3 +119,8 @@ a {
   height: ;
   width: ;
 } */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
