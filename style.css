@@ -1,7 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /*définition de la police globale du site*/
 body {
   font-family: "Roboto", sans-serif;
-  margin: 0;
 }
 
 /*========HEADER========*/
@@ -58,6 +62,10 @@ header {
 }
 
 /*=========NAV==========*/
+
+nav ul {
+  margin-left: 2rem;
+}
 
 li {
   display: flex;
