@@ -139,6 +139,12 @@ a {
   width: 15rem;
   background-color: gray;
 }
+
+.abonnementsNav img {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50px;
+}
 /*=========== MAIN==========*/
 
 .video {
