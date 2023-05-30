@@ -83,42 +83,30 @@ a {
   color: rgb(36, 36, 36);
 }
 
-.home-logo {
-  width: 1.3rem;
-}
-https://github.com/AtKDevWeb/trainningYTcss.git
-.short-logo {
-  width: 1.3rem;
-}
-
-.abo-logo {
-  width: 1.3rem;
-}
-
-.bibli-logo {
-  width: 1.3rem;
-}
-
-.histo-logo {
-  width: 1.3rem;
-}
-
-.video-logo {
-  width: 1.3rem;
-}
-
-.horloge-logo {
-  width: 1.3rem;
-}
-
+.home-logo,
+.rock-logo,
+.short-logo,
+.abo-logo,
+.bibli-logo,
+.histo-logo,
+.video-logo,
+.horloge-logo,
 .like-logo {
   width: 1.3rem;
 }
 
-.rock-logo {
-  width: 1.3rem;
+.mainDivider {
+  display: flex;
+  align-items: center;
+  height: 1.5rem;
 }
 
+.divider {
+  content: "";
+  height: 1px;
+  width: 15rem;
+  background-color: gray;
+}
 /*=========== MAIN==========*/
 
 .video {
