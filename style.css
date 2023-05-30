@@ -75,12 +75,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background-color: #45a049;
-}
-
-.user-info {
-  display: flex;
-  align-items: center;
+  background-coly: inline;enter;
 }
 
 .user-info span {
