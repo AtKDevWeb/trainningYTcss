@@ -76,7 +76,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background-coly: inline;enter;
+  background-color: #45a049;
 }
 
 .user-info span {
@@ -136,10 +136,15 @@ a {
 }
 /*=========== MAIN==========*/
 
-.video {
-  border: 1px black solid; /*affichage des bodures
-   pour positionnement*/
-  display: inline-block;
+main {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 /* .embedVideo {
@@ -147,10 +152,7 @@ a {
   width: ;
 } */
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 /* ============ FOOTER ===========*/
 

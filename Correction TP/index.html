@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Youtube</title>
+    <style>
+
+        html body {
+            margin: 0;
+        }
+
+        .nav-bar {
+            border: solid 1px red;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .side-bar {
+            width: 100px;
+            height: 100vh;
+            background-color: gray;
+        }
+
+        .content-video {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .video {
+            margin: 2px;
+            height: 20px;
+            width: 30px;
+            border: solid 1px black;
+        }
+
+        footer {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div>Menu/Logo</div>
+            <div>Search bar</div>
+            <div>Profil</div>
+        </nav>
+    </header>
+    <main>
+        <aside class="side-bar">
+            SideBar
+        </aside>
+        <div>
+            <div class="content-video">
+                <div class="video"></div>
+                <div class="video"></div>
+                <div class="video"></div>
+                <div class="video"></div>
+                <div class="video"></div>
+                <div class="video"></div>
+                <div class="video"></div>
+                <div class="video"></div>
+                <div class="video"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Footer
+    </footer>
+</body>
+</html>
